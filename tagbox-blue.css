@@ -1,0 +1,56 @@
+/* The input form element */
+.tagbox-input {
+    border: 0;
+    outline: none;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+/* The list containing our tags */
+.tagbox-ul {
+    background: #fff;
+    text-align: left;
+    list-style: none;
+    margin: 0;
+    padding: 0 2px;
+    border: 1px solid #ccc;
+    cursor: text;
+}
+
+/* Tags are contained within <li> items */
+.tagbox-li {
+    display: inline-block;
+    margin: 2px;
+}
+
+/* These are the actual tags */
+.tagbox-tag {
+    color: #205791;
+    border: 1px solid #92cae4;
+    background-color: #d5edf8;
+    border-radius: 4px;
+    padding: 0 5px;
+    cursor: context-menu;
+}
+
+/* Link for removing a tag */
+.tagbox-remove {
+    padding-left: 5px;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+/* This class will add to pending backspace deletes */
+.tagbox-delete {
+    color: #8a1f11;
+    background: #fbe3e4;
+    border-color:#f4686b;
+}
+
+/* This class will be flashed to display duplicates */
+.tagbox-flash {
+    color: #264409 !important;
+    border-color:#c6d880 !important;
+    background-color: #e6efc2 !important;
+}
